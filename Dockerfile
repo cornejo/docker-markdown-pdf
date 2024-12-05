@@ -6,7 +6,7 @@ RUN set -ex ; \
     rm -rf /var/lib/apt/lists/*
 
 RUN set -ex ; \
-    npm install --silent -g markdown-pdf@7.0.0 ; \
+    npm install --silent -g markdown-pdf@11.0.0 ; \
     rm -rf ~/.npm/cache/* ; \
     mkdir -p /opt/docs
 
