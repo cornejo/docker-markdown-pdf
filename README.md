@@ -1,11 +1,8 @@
 # docker-markdown-pdf
 
-[![License](https://img.shields.io/github/license/uchida/docker-markdown-pdf.svg?maxAge=2592000)](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal)
-[![MicroBadger](https://images.microbadger.com/badges/image/auchida/markdown-pdf.svg)](http://microbadger.com/images/auchida/markdown-pdf)
-
 markdown-pdf installed docker image to convert markdown to pdf, including Noto CJK fonts.
 
-Docker image is available as [auchida/markdown-pdf](https://hub.docker.com/r/auchida/markdown-pdf/) in Docker Hub.
+Docker image is available as [githubc/markdown-pdf](https://hub.docker.com/r/githubc/markdown-pdf/) in Docker Hub.
 
 ## Image tags
 
@@ -14,10 +11,10 @@ Docker image is available as [auchida/markdown-pdf](https://hub.docker.com/r/auc
 ## Usage
 
 ```console
-$ docker run -v $PWD:/opt/docs auchida/markdown-pdf markdown-pdf -o docs.pdf docs.md
+$ docker run -v $PWD:/opt/docs githubc/markdown-pdf markdown-pdf -o docs.pdf docs.md
 ```
 
-see [README for markdown-pdf](https://github.com/alanshaw/markdown-pdf) for more information about `markdown-pdf`.
+see [README for markdown-pdf](https://github.com/cornejo/markdown-pdf) for more information about `markdown-pdf`.
 
 ## License
 
